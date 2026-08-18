@@ -21,11 +21,11 @@ temp-*
 
 **O que este arquivo faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Define quais arquivos e pastas o Git deve ignorar e não mostrar como alterações.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+É útil para ignorar arquivos temporários, logs, pastas de build e arquivos que não precisam ir para o GitHub.
 
 ---
 
@@ -37,18 +37,18 @@ git ls-files --others --ignored --exclude-standard
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra arquivos que estão sendo ignorados pelo Git.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para conferir se o .gitignore está funcionando como esperado.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. Arquivo `.gitignore`
-- [ ] 2. `git ls-files --others --ignored --exclude-standard`
+- [x] 1. Arquivo `.gitignore`
+- [x] 2. `git ls-files --others --ignored --exclude-standard`
 
 ---
 
