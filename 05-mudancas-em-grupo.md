@@ -19,11 +19,11 @@ git branch
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as branches que existem no repositório.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser conferir em qual branch estou e quais existem.
 
 ---
 
@@ -35,11 +35,11 @@ git branch [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria uma nova branch com o nome escolhido.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser criar uma nova branch.
 
 ---
 
@@ -51,11 +51,11 @@ git switch -c [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria uma nova branch e já altera para ela.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser criar uma nova branch e já trabalhar nela.
 
 ---
 
@@ -67,11 +67,11 @@ git merge [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Junta as alterações de uma branch para a branch atual em uso.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para juntar o trabalho de uma branch em outra.
 
 ---
 
@@ -82,22 +82,21 @@ git branch -d [nome-do-branch]
 ```
 
 **O que faz:**
-
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Apaga uma branch local.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando o trabalho desta branch já foi integrado.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git branch`
-- [ ] 2. `git branch [nome-do-branch]`
-- [ ] 3. `git switch -c [nome-do-branch]`
-- [ ] 4. `git merge [nome-do-branch]`
-- [ ] 5. `git branch -d [nome-do-branch]`
+- [x] 1. `git branch`
+- [x] 2. `git branch [nome-do-branch]`
+- [x] 3. `git switch -c [nome-do-branch]`
+- [x] 4. `git merge [nome-do-branch]`
+- [x] 5. `git branch -d [nome-do-branch]`
 
 ---
 
