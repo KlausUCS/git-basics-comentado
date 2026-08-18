@@ -19,11 +19,12 @@ git status
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra como estão os arquivos do projeto e quais foram alterados.
+Também mostra quais arquivos estão preparados para commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Antes de fazer um commit para conferir o que mudou.
 
 ---
 
@@ -35,11 +36,11 @@ git diff
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as alterações que foram feitas nos arquivos, mas ainda não foram adicionadas ao commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para conferir exatamente o que foi alterado antes de usar git add.
 
 ---
 
@@ -51,11 +52,12 @@ git add [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Coloca o arquivo na área de preparação para o próximo commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar antes de realizar um commit.
+Posso escolher exatamente quais arquivos quero colocar no próximo commit.
 
 ---
 
@@ -67,11 +69,11 @@ git diff --staged
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as alterações que já foram adicionadas para o próximo commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser conferir o que realmente vai entrar no commit.
 
 ---
 
@@ -83,11 +85,11 @@ git reset [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Tira o arquivo da área de preparação sem apagar as alterações feitas nele.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando colocar um arquivo no git add por engano.
 
 ---
 
@@ -99,22 +101,23 @@ git commit -m "[mensagem descritiva]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Salva as alterações preparadas como um novo commit no histórico do Git.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser salvar alterações no código.
+A mensagem deve explicar de forma curta o que foi alterado.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git status`
-- [ ] 2. `git diff`
-- [ ] 3. `git add [arquivo]`
-- [ ] 4. `git diff --staged`
-- [ ] 5. `git reset [arquivo]`
-- [ ] 6. `git commit -m "[mensagem descritiva]"`
+- [x] 1. `git status`
+- [x] 2. `git diff`
+- [x] 3. `git add [arquivo]`
+- [x] 4. `git diff --staged`
+- [x] 5. `git reset [arquivo]`
+- [x] 6. `git commit -m "[mensagem descritiva]"`
 
 ---
 
