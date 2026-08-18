@@ -16,12 +16,12 @@
 <https://windows.github.com>
 
 **Para que serve, e quando eu usaria:**
-
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para usar o GitHub no Windows de forma mais visual.
+Eu usaria para mexer nos repositórios.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+É uma opção para quem prefere usar uma interface gráfica.
 
 ---
 
@@ -31,11 +31,12 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para usar o GitHub no Mac de forma mais visual.
+Eu usaria para mexer nos repositórios.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+É parecido com o GitHub para Windows, mas feito para Mac.
 
 ---
 
@@ -45,19 +46,20 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+É o programa que permite usar o Git pelo computador.
+Eu usaria para fazer commits, criar branches e controlar as alterações do projeto.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Funciona em vários sistemas, como Windows, Mac e Linux.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. GitHub para Windows
-- [ ] 2. GitHub para Mac
-- [ ] 3. Git para todas as plataformas
+- [x] 1. GitHub para Windows
+- [x] 2. GitHub para Mac
+- [x] 3. Git para todas as plataformas
 
 ---
 
