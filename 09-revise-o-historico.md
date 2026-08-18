@@ -18,12 +18,11 @@ git log
 ```
 
 **O que faz:**
-
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra o histórico de commits do projeto.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para ver o que foi feito e quem fez cada commit.
 
 ---
 
@@ -35,11 +34,11 @@ git log --follow [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra o histórico de alterações de um arquivo específico.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+O --follow também consegue acompanhar o arquivo quando ele foi renomeado.
 
 ---
 
@@ -51,11 +50,11 @@ git diff [primeiro-branch]...[segundo-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as diferenças entre duas branches.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Uso para comparar o que mudou entre duas linhas de trabalho antes de fazer um merge.
 
 ---
 
@@ -67,20 +66,19 @@ git show [commit]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra os detalhes de um commit específico e as alterações feitas nele.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
-
+Quando quiser saber exatamente o que foi alterado em determinado commit.
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git log`
-- [ ] 2. `git log --follow [arquivo]`
-- [ ] 3. `git diff [primeiro-branch]...[segundo-branch]`
-- [ ] 4. `git show [commit]`
+- [x] 1. `git log`
+- [x] 2. `git log --follow [arquivo]`
+- [x] 3. `git diff [primeiro-branch]...[segundo-branch]`
+- [x] 4. `git show [commit]`
 
 ---
 
